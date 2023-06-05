@@ -199,8 +199,12 @@ footer p {
 
 .footer-content i.fa-map-marker-alt {
   color: aliceblue;
-  margin-right: 10px;
   font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer-content:nth-child(2) p {
+  margin: 0;
 }
 
 .footer-content i.fa-instagram {
@@ -212,5 +216,11 @@ footer p {
 .footer-content i.fa-twitter {
   color: aliceblue;
   font-size: 24px;
+}
+
+.footer-content .location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
