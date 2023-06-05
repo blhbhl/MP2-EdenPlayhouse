@@ -30,7 +30,8 @@ function Footer() {
           <h2>Follow</h2>
           <p>Follow our news, updates and activities on:</p>
           <div>
-            <i className="fab fa-facebook-f"></i>
+           <a href="https://www.facebook.com/edenplayhouse" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook-f"></i></a>
             <i className="fab fa-instagram"></i>
             <i className="fab fa-twitter"></i>
           </div>
