@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'painted_brushregular';
+  src: url('/fontsfree-net-painted-brush.woff') format('woff2'),
+       url('/fontsfree-net-painted-brush.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+:root{
+  --bg-color: rgb(5, 5, 5);
+  --text-color: #f3cde7;
+  --main-color: #a40e74;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  /* width: 100vw; */
+}
+
+
+@media only screen and (max-width: 1320px) {}
+  /* header { */
+      /* padding: 0 50px; */
+  /* }} */
+/* header ends here */
+
+
+
+
+/* footer */
+
+footer {
+  background: linear-gradient(135deg, rgb(199, 54, 112), rgb(135, 14, 135));
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  padding: 0 100px;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.footer-content {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 0 20px;    
+  width: 25%;     
+
+}
+
+.footer-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+
+.footer-content p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: aliceblue;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.footer-content input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid aliceblue;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.footer-content i.fa-envelope {
+  color: aliceblue;
+}
+
+footer p {
+  font-size: 16px;
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+
+.footer-content:not(:last-child) {
+  border-right: 1px solid #fafafa;
+
+}
+
+.footer-content i.fa-facebook-f {
+  color: aliceblue;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.footer-content i.fa-map-marker-alt {
+  color: aliceblue;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer-content:nth-child(2) p {
+  margin: 0;
+}
+
+.footer-content i.fa-instagram {
+  color: aliceblue;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.footer-content i.fa-twitter {
+  color: aliceblue;
+  font-size: 24px;
+}
+
+.footer-content .location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Example of a media query for a tablet-sized device */
+@media (min-width: 768px) {
+  /* CSS rules for tablet-sized devices */
+}
+
