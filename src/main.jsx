@@ -11,6 +11,8 @@ import About from "./pages/About";
 import ErrorPage from "./pages/ErrorPage";
 import Team from "./pages/Team";
 
+import Programs from './pages/Programs'
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,7 +31,10 @@ const router = createBrowserRouter([
         path: '/team',
         element: <Team />
       },
-      
+      {
+        path: '/program',
+        element: <Programs/>
+      }
     ]
   },
 ]);
