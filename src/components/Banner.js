@@ -1,7 +1,8 @@
 import React from 'react'
 
 function Banner() {
-  return (<>
+  return (
+  <>
     <div className="banner">
     <img src="banner.png" alt="Banner Photo"/>
     <h1 className="banner-text">Your avenue for Learning and Fun</h1>
