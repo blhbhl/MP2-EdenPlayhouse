@@ -12,14 +12,16 @@ function AboutContent() {
       </div>
       <div className="mission">
         <img src="mission.png" alt="mission photo" />
-        <h1>Our Mission Vision</h1>
-        <p>
-          Eden Playhouse and Learning Center Inc. offers a quality education to
-          be made avalilable <br />
-          for every family to support parents to raise a god-fearing,
-          well-rounded,
-          <br /> disciplined, intelligent and talented children.
-        </p>
+        <div className="mission-content">
+          <h1>Our Mission Vision</h1>
+          <p>
+            Eden Playhouse and Learning Center Inc. offers a quality education
+            to be made avalilable
+            for every family to support parents to raise a god-fearing,
+            well-rounded,
+            disciplined, intelligent and talented children.
+          </p>
+        </div>
       </div>
     </>
   );
