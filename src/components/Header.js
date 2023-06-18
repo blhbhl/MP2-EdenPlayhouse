@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <header>
-<div className="logo-header">
+    <div className="logo-header">
     <div className="logo-image"><img src="logo-white.png" alt="Logo"/></div>
     <div className="logo-text">Eden Playhouse and Learning Center Inc.</div>
 </div>
@@ -18,7 +18,7 @@ const Header = () => {
         <li><a href="active">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Team</a></li>
-        <li><a href="#">Progams</a></li>
+        <li><a href="Programs.js">Progams</a></li>
         <li><a href="#">Careers</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Enroll Now</a></li>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer() {
+function Footer () {
   return (
     <footer>
       <div className="footer-container">
@@ -30,7 +30,7 @@ function Footer() {
           <h2>Follow</h2>
           <p>Follow our news, updates and activities on:</p>
           <div>
-           <a href="https://www.facebook.com/edenplayhouse" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/edenplayhouse" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-facebook-f"></i></a>
             <i className="fab fa-instagram"></i>
             <i className="fab fa-twitter"></i>
