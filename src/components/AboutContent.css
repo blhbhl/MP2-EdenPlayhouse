@@ -1,73 +1,70 @@
 .about {
-    position: relative;
-    text-align: center;
-  }
-  
-  .about img {
-    width: 100%;
-    max-height: 400px;
-    display: flex;
-    max-width: 100%;
-    max-height: 100%;
-  }
-  
-  .about-text {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    color: black;
-    font-family: "painted_brushregular";
-    font-weight: lighter;
-    flex-direction: column;
-  }
-
-.about-content { 
-    margin: 20px;
-    padding: 20px;
+  position: relative;
+  text-align: center;
 }
-  .mission {
-    align-items: center;
-  }
-  
-  
-  .mission img {
-    margin-right: 20px;
-    height: 100px;
-    width: 100px;
-    margin-left: 30px;
-  }
-  
-  .mission-text {
-    display: flex;
-    flex-direction: column;
-    font-weight: lighter;
 
-  }
+.about img {
+  width: 100%;
+  max-height: 400px;
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+}
 
- .philo img {
-    margin-right: 20px;
-    height: 100px;
-    width: 100px;
-    margin-left: 30px;
-    margin-top: 20px;
-  }
+.about-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: black;
+  font-family: "painted_brushregular";
+  font-weight: lighter;
+  flex-direction: column;
+}
+
+.about-content {
+  margin: 20px;
+  padding: 20px;
+}
+.mission {
+  padding: 30px 0;
+  align-items: center;
+}
+
+.mission img {
+  margin-right: 20px;
+  height: 100px;
+  width: 100px;
+  margin-left: 30px;
+}
+
+.mission-text {
+  display: flex;
+  flex-direction: column;
+  font-weight: lighter;
+}
+
+.philo img {
+  margin-right: 20px;
+  height: 100px;
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
 
 /*for a mobile device */
 @media (max-width: 720px) {
-    .about-text {
-        font-size: 20px;
-    }
-    .philo img {
-        height: 40px;
-        width: 40px;
-    }
+  .about-text {
+    font-size: 20px;
+  }
+  .philo img {
+    height: 40px;
+    width: 40px;
+  }
 
-    .mission img {
-        height: 40px;
-        width: 40px;
-    }
-
+  .mission img {
+    height: 40px;
+    width: 40px;
+  }
 }
-  
