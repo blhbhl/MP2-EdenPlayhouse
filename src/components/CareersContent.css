@@ -1,0 +1,101 @@
+
+.careers-banner{
+   width: 100%; 
+   height: 600px;
+   background-image: url(public/pictures/careerbg.png);
+   background-repeat:no-repeat;
+   background-size:cover;
+   padding:20px;
+   filter:brightness(0.9)
+}
+
+.careers-banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(199, 54, 112), 2px 2px 4px rgb(135, 14, 135);
+    font-family: 'painted_brushregular';
+    position: relative;
+    padding:20px;
+    text-align:center;
+}
+
+.career-border{
+    background-color: rgb(247, 247, 82);
+    border-radius: 35px;
+    margin: 40px;
+    
+    
+}
+
+.one{
+    font-size: 22px;
+    color:rgb(7, 73, 172);
+    padding: 30px;
+    text-align:center; 
+    
+}
+
+.career-benefits{
+    background-color: rgb(34, 135, 185);
+    margin-left: 40px;
+    border-radius: 40px;
+    padding: 30px;
+    width: 50%;     
+}
+
+.career-benefits img{
+    width: 92%;
+    height: 48vh;
+    margin: 20px;
+}
+
+.two{
+    font-size: 25px;  
+}
+
+.careers-banner ul{
+    align-items: center;
+}
+
+ ul li{
+    display: block;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.three{
+    margin-left: 100px;
+}
+
+.four{
+    background-color: rgb(40, 189, 40);
+    width: 50%;
+    height: 30vh;
+    margin-top: 38px;
+    margin-bottom: 35px;
+    margin-left: 40px;
+    padding: 30px;
+    border-radius: 40px;
+    
+}
+
+.four-header{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.four span{
+    color: white;
+}
+
+.four-content{
+    font-size: 20px;
+}
+
+.career-benefits, .four{
+    display: inline-block;
+}
