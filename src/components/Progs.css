@@ -26,8 +26,13 @@
 }
 
 /* cards starts here*/
+.card {
+    padding: 60px;
+}
+
 .card-container {
-        width: 250px;
+        width: 450px;
+        height: auto;
         border-radius: 1rem;
         box-shadow: 0px 10px 8px #999;
         height: 480px;
@@ -60,12 +65,12 @@ h1 {
 
 .title {
     text-align: center;
-    font-family:"painted_brushregular";
+    font-family:"Nunito";
     font-weight: lighter;
-    background: linear-gradient(135deg, rgb(199, 54, 112), rgb(135, 14, 135));
-    text-shadow: 2px 2px 4px rgb(199, 54, 112), 2px 2px 4px rgb(135, 14, 135);
+    /* background: linear-gradient(135deg, rgb(199, 54, 112), rgb(135, 14, 135)); */
+    /* text-shadow: 2px 2px 4px rgb(199, 54, 112), 2px 2px 4px rgb(135, 14, 135); */
     font-size: 50px;
-    color: white; 
+    color: rgb(11, 10, 10); 
     margin-top: 20px; 
     
     
