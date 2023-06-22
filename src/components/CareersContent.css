@@ -2,7 +2,7 @@
 .careers-banner{
    width: 100%; 
    height: 600px;
-   background-image: url(public/pictures/careerbg.png);
+   background-image: url(/pictures/careerbg.png);
    background-repeat:no-repeat;
    background-size:cover;
    filter:brightness(0.9)
