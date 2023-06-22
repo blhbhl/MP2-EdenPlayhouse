@@ -22,3 +22,126 @@
     font-family: "painted_brushregular";
     font-weight: lighter;
   }
+
+/* card starts here */
+
+.comtainer-fluid {
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.component {
+  background-color: rgb(227, 208, 184);
+  display: center;
+  padding: 100px;
+  padding-bottom:40px
+}
+
+.row-flex-container {
+  display: flex;
+  direction: column;
+  background-color: rgb(227, 208, 184);
+  padding: 260px;
+  justify-content: space-between;
+  padding-top: 10px;
+
+
+}
+
+.row-flex-container img {
+  width: 450px;
+  height: auto;
+}
+
+.container-content-text {
+ color: #fff;
+}
+
+.card1 {
+  background-image: linear-gradient(
+    135deg,
+    rgb(9, 111, 111),
+    rgb(28, 110, 77));
+}
+
+.card2 {
+  
+  background-image: linear-gradient(
+    135deg,
+    rgb(236, 152, 166),
+    rgb(146, 71, 102));
+}
+
+.card3 {
+  background-image: linear-gradient(
+    135deg,
+    rgb(228, 116, 103),
+    rgb(105, 72, 72));
+}
+
+.banner-team {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  background-color: #0e7e86;
+}
+
+.banner-team img {
+  padding: 0;
+  margin: 0;
+  display: inline;
+  height: 400px;
+  width: auto;
+  display: flex;
+
+}
+.col1 {
+  width: 25%;
+  height: auto;
+  background-color: #0e7e86;;
+}
+
+.col2 {
+  padding: 100px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+  width: 75%;
+  height: 50%;
+}
+
+/* for a mobile device */
+@media (max-width: 720px) {
+  .content-text {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    font-size: 25px;
+    color: black;
+    font-family: "painted_brushregular";
+    font-weight: lighter;
+  }
+
+  .row-flex-container {
+    direction: column;
+    background-color: rgb(227, 208, 184);
+    padding: 260px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+  }
+
+  .component {
+    font-size: 40px;
+  }
+
+  .row-flex-container img {
+    width: 200px;
+    height: auto;
+
+  }
+
+
+
+}

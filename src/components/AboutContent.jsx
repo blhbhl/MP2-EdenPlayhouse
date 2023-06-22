@@ -2,6 +2,9 @@ import React from "react";
 import "./AboutContent.css";
 
 function AboutContent() {
+  const handleButtonClick = () => {
+  
+  };
   return (
     <>
       <div className="about">
@@ -49,8 +52,18 @@ function AboutContent() {
         <p>If you are interested in learning more about our program or how to enroll, 
           please click on the button below to fill out our 
           questionnaire and we will get back to you as soon as possible!</p>
-          
-      </div>
+          <a
+          name="about-cta-button"
+          id="aboutctaButton"
+          className="about-cta-btn"
+          href="#"
+          role="button"
+          onClick={handleButtonClick}
+        >
+         Message Us
+        </a>
+      </div> 
+
     </>
   );
 }
