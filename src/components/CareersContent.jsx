@@ -8,7 +8,7 @@ const Careers = () => {
       <div className="careers-border">
         <p className="one">
           Looking for a fun, exciting and challenging work environment? Join
-          Eden Playhouse and Learning Center Inc. now!<br></br> At EPLCI, we
+          Eden Playhouse and Learning Center Inc. now!<br></br> At Eden Playhouse, we
           always welcome applications from qualified, experienced, passionate
           and loving candidates that are
           <br /> in search for a career in early childhood education.
@@ -35,7 +35,7 @@ const Careers = () => {
             </li>
           </ul>
         </div>
-        <img src="/public/pictures/benefits.png" alt="" />
+        <img src="eplc2.jpg" alt="photo" />
       </div>
       <div className="four">
         <p className="four-header">Apply Now!!!</p>
