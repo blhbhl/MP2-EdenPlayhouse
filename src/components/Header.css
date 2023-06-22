@@ -142,3 +142,133 @@ header {
 
 }
   
+@media (max-width: 768px) and (max-height: 1024px)
+ {
+  header {
+      padding: 0;
+      width: 100%;
+      height: 50px;
+  }
+
+  .logo-header {
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100vw;
+  }
+  .hamburger {
+      display: flex;
+  }
+
+  .logo-text {
+      font-size: 20px;
+  }
+
+  .logo-image img {
+      height: 40px;
+  }
+
+  .nav-bar ul {
+      display: none;
+  }
+
+  .nav-bar-mobile {
+      display: flex;
+      background-color: white;
+      position: fixed;
+      top: 50px;
+      height: fit-content;
+      z-index: 1;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(90deg, rgb(199, 54, 112), rgb(135, 14, 135));
+      /* box-shadow: 2px 10px 4px #2e2e2e9c; */
+
+  }
+
+  .nav-bar-mobile ul {
+      width: 80%;
+      margin: auto;
+      list-style: none;
+      text-align: left;
+      text-decoration: none;
+  }
+
+  .nav-bar-mobile ul li {
+      padding: 10px 0;
+      color: #fafafa;
+      /* background-color: white; */
+  }
+
+  .nav-bar-mobile ul li a {
+      color: white;
+  }
+
+}
+
+@media (max-width:740px) and (max-height: 1298px)
+ {
+  header {
+      padding: 0;
+      width: 100%;
+      height: 50px;
+  }
+
+  .logo-header {
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100vw;
+  }
+  .hamburger {
+      display: flex;
+  }
+
+  .logo-text {
+      font-size: 20px;
+  }
+
+  .logo-image img {
+      height: 40px;
+  }
+
+  .nav-bar ul {
+      display: none;
+  }
+
+  .nav-bar-mobile {
+      display: flex;
+      background-color: white;
+      position: fixed;
+      top: 50px;
+      height: fit-content;
+      z-index: 1;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(90deg, rgb(199, 54, 112), rgb(135, 14, 135));
+      /* box-shadow: 2px 10px 4px #2e2e2e9c; */
+
+  }
+
+  .nav-bar-mobile ul {
+      width: 80%;
+      margin: auto;
+      list-style: none;
+      text-align: left;
+      text-decoration: none;
+  }
+
+  .nav-bar-mobile ul li {
+      padding: 10px 0;
+      color: #fafafa;
+      /* background-color: white; */
+  }
+
+  .nav-bar-mobile ul li a {
+      color: white;
+  }
+
+}
+

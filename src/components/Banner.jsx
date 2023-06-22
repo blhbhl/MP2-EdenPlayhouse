@@ -13,7 +13,7 @@ function Banner() {
   </div>
 
  <div className="banner2">
-    <h1>Eden playhouse provides exceptional care and education in a safe and nurturing environment for children 3 - 5 years old.</h1>
+    <h1>Eden playhouse provides exceptional care and education in a safe and nurturing environment for children 3 - 6 years old.</h1>
     <h3>If you are interested in learning more about our program or how to enroll, please click on the button below to fill out our questionnaire and we will get back to you as soon as possible!</h3>
     <a
           name="cta-button"
