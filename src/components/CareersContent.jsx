@@ -5,7 +5,7 @@ const Careers = () => {
   return (
     <div className="body">
       <CareersBanner />
-      <div className="career-border">
+      <div className="careers-border">
         <p className="one">
           Looking for a fun, exciting and challenging work environment? Join
           Eden Playhouse and Learning Center Inc. now!<br></br> At EPLCI, we
@@ -14,9 +14,9 @@ const Careers = () => {
           <br /> in search for a career in early childhood education.
         </p>
       </div>
-      <div className="career-benefits">
+      <div className="careers-benefits">
         <p className="two">We have incredible benefits that awaits you!</p>
-        <div className="three">
+        <div className="benefits-list">
           <ul>
             <li>
               <b>✓</b> Excellent conpensation
@@ -40,7 +40,7 @@ const Careers = () => {
       <div className="four">
         <p className="four-header">Apply Now!!!</p>
         <p className="four-content">
-          Interested, email us <span>edenplayhouse.lc@gmail.com</span> or call <span> (043) 748 0543</span>
+          Interested, email us at <span>edenplayhouse.lc@gmail.com</span> or call <span> (043) 748 0543</span>
         </p>
       </div>
     </div>

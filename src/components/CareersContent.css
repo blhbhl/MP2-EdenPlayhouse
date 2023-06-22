@@ -5,7 +5,6 @@
    background-image: url(public/pictures/careerbg.png);
    background-repeat:no-repeat;
    background-size:cover;
-   padding:20px;
    filter:brightness(0.9)
 }
 
@@ -14,7 +13,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 80px;
+    font-size: 90px;
     color: white;
     text-shadow: 2px 2px 4px rgb(199, 54, 112), 2px 2px 4px rgb(135, 14, 135);
     font-family: 'painted_brushregular';
@@ -23,38 +22,45 @@
     text-align:center;
 }
 
-.career-border{
+.careers-border{
     background-color: rgb(247, 247, 82);
-    border-radius: 35px;
-    margin: 40px;
-    
-    
+    border-radius: 35px; 
+    margin: 23px;
+    width: 96.7%;
+    height: 160px;
 }
 
 .one{
-    font-size: 22px;
+    font-size: 19px;
     color:rgb(7, 73, 172);
-    padding: 30px;
-    text-align:center; 
-    
+    padding: 40px;
+    text-align:center;   
 }
 
-.career-benefits{
+.careers-benefits{
     background-color: rgb(34, 135, 185);
-    margin-left: 40px;
-    border-radius: 40px;
-    padding: 30px;
-    width: 50%;     
-}
-
-.career-benefits img{
-    width: 92%;
-    height: 48vh;
-    margin: 20px;
+    border-radius: 35px;
+    padding: 40px; 
+    margin: 23px;
+    width:96.7%;    
 }
 
 .two{
-    font-size: 25px;  
+    font-size: 23px;
+    margin: 3px;
+    font-weight: bold;
+}
+
+.benefits-list{
+    justify-content: center;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.careers-benefits img{
+    width:90%;
+    height: 290px;
+    margin: 5px;
 }
 
 .careers-banner ul{
@@ -67,24 +73,20 @@
     text-align: justify;
 }
 
+
 .three{
-    margin-left: 100px;
+    margin: 30px;
 }
 
 .four{
     background-color: rgb(40, 189, 40);
-    width: 50%;
-    height: 30vh;
-    margin-top: 38px;
-    margin-bottom: 35px;
-    margin-left: 40px;
-    padding: 30px;
-    border-radius: 40px;
-    
+    margin-bottom: 23px;
+    border-radius: 35px;
+    padding: 20px;  
 }
 
 .four-header{
-    font-size: 25px;
+    font-size: 21px;
     font-weight: bolder;
 }
 
@@ -93,9 +95,48 @@
 }
 
 .four-content{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .career-benefits, .four{
     display: inline-block;
 }
+
+/*for a mobile device */
+@media (max-width: 720px) {
+    .careers-banner {
+      width: 100%;
+      height: 50vh;
+    }
+    .careers-banner-text{
+        font-size: 40px;
+    }
+    .careers-border{
+        width: 320px; 
+        height:35vh;
+        margin: 35px;
+        padding: 5px;  
+    }
+
+    .one{
+        font-size: 18px;
+        padding-top: 9px;
+    }
+    .careers-benefits{
+        width:320px;
+        height:72.5vh;
+        margin: 35px; 
+    }
+    .careers-benefits img{
+        height: 305px;
+    }
+    ul li{
+        font-size: 15px;
+    }
+
+    .four{
+        margin-top: 3px;
+    }
+    
+    
+  }

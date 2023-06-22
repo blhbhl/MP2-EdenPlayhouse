@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div className="card">
       <h1 className="title">Program Offerings</h1>
-      <div>
+      
       <CardContent
         imgSrc="/public/pictures/toddler.png"
         category="Toddler"
@@ -21,9 +21,7 @@ const Card = () => {
         class_size={8}
         time="8:00am - 12:00pm"
       />
-      </div>
-
-      <div>
+      
       <CardContent
         imgSrc="/public/pictures/kindergarten.png"
         category="Kindergarten"
@@ -40,7 +38,6 @@ const Card = () => {
         time="1:00pm - 4:00pm"
       />
       </div>
-    </div>
   );
 };
 
