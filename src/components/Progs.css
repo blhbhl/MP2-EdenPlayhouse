@@ -3,7 +3,7 @@
 .programs-banner {
    width: 100%;
    height: 400px;
-   background-image: url(public/pictures/programs.png);
+   background-image: url(pictures/programs.png);
    background-repeat:no-repeat;
    background-size:cover;
    padding:20px;
